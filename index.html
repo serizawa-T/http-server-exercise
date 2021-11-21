@@ -9,7 +9,9 @@
 </head>
 <script>
   function clickHandler() {
-
+    const box = document.getElementById("box");
+    const p = document.createElement("p");
+    p.innerText = "Added by JS";
   }
 </script>
 <body>
@@ -22,5 +24,8 @@
     </p>
     <button onclick="clickHandler()">JS</button>
   <div id="box"></div>
+  <table>
+
+  </table>
 </body>
 </html>
